@@ -1,0 +1,14 @@
+1)create HelloWorld.java in programm{
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, world");
+    }
+}
+after that save document.
+2)Next in cmd we write:
+  \javac HelloWorld.java
+  if we don`t have any message we can continue
+  \jar -cf HelloWorld.jar HelloWorld class
+  After all lur actions we can run this jar file:
+  \java -cp HelloWorld.jar 
+  Hello, world
